@@ -1,0 +1,14 @@
+{
+    "namespace":"com.tiger.iplocation",
+    "type":"record",
+    "name":"Location",
+    "fields":[
+       {"name":"geo_code","type":"string","default":"-"},
+       {"name":"country","type":"string","default":"-"},
+       {"name":"province","type":"string","default":"-"},
+       {"name":"region","type":"string","default":"-"},
+       {"name":"city","type":"string","default":"-"},
+       {"name":"city_level","type":"string","default":"-"},
+       {"name":"isp","type":"string","default":"-"}
+     ]
+ }
